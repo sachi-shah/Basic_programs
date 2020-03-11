@@ -1,2 +1,2 @@
 # python
-IT tools
+Basic python programs
