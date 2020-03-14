@@ -6,11 +6,11 @@ class Circle:
     def calculate_area(self):
         print("enter the radius of circle: ")
         self.s = float(input())
-        area = 3.14*self.s*self.s
+        area = 3.14 * self.s * self.s
         print("area of circle is = % f" % (area))
         
     def calculate_perimeter(self):
-        perimeter = 2*3.14*self.s
+        perimeter = 2 * 3.14 * self.s
         print("perimeter of circle is = % f" % (perimeter))
 
 
@@ -21,11 +21,11 @@ class Rectangle:
         self.a = float(input())
         print("enter the breadth of rectangle: ")
         self.b = float(input())
-        area = self.a*self.b
+        area = self.a * self.b
         return(area)
     
     def calculate_perimeter(self):
-        perimeter = 2*(self.a+self.b)
+        perimeter = 2 * (self.a + self.b)
         return(perimeter)
 
 
@@ -36,7 +36,7 @@ class Ellipse:
         self.a = float(input())
         print("enter the semiminor axis of ellipse: ")
         self.b = float(input())
-        area = 3.14*self.a*self.b
+        area = 3.14 * self.a * self.b
         return(area)
     
     def calculate_perimeter(self):
@@ -50,7 +50,7 @@ class Square:
     def calculate_area(self):
         print("Enter side of square:")
         self.s = float(input())
-        area = self.s*self.s
+        area = self.s * self.s
         print("Area of Square is = %f" % (area))
         
     def calculate_perimeter(self):
