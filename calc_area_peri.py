@@ -54,7 +54,7 @@ class Square:
         print("Area of Square is = %f" % (area))
         
     def calculate_perimeter(self):
-        perimeter = 4*self.s
+        perimeter = 4 * self.s
         print("Perimeter of Square is = %f" % (perimeter))
         
 c = Circle()
